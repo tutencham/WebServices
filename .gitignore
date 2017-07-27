@@ -1,9 +1,50 @@
-*.iml
-.gradle
 /local.properties
 /.idea/workspace.xml
 /.idea/libraries
 .DS_Store
 /build
-/captures
-.externalNativeBuild
+
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+bin
+gen
+gen/
+
+# Local configuration file (sdk path, etc)
+*.properties
+
+# Eclipse project files
+.classpath
+.project
+# Android Studio
+.idea/
+/*/local.properties
+/*/out
+/*/*/build
+build
+/*/*/production
+*.iml
+*.iws
+*.ipr
+*~
+*.swp
+!captures
+
+# gradle
+.gradle/
+!gradle/wrapper/gradle-wrapper.properties
+!gradle.properties
+!gradle-wrapper.properties
+
+#hs_err_pid*
+hs_err_pid*
